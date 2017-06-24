@@ -1,7 +1,5 @@
-/**
- * Created by georgeflauta on 6/5/17.
- */
-(function() {
+
+(funcion() {
     angular.module('app')
         .controller('codingBlockController', codingBlockController)
 
