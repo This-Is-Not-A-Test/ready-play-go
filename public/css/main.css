@@ -949,7 +949,7 @@ figcaption span {
 }
 
 figcaption a {
-    color: #272c9d;
+    color: rgba(255,61,209,1) ;
 }
 
 .date {
@@ -962,7 +962,7 @@ figcaption a {
     font-weight: bold;
     text-align: center;
     border-radius: 1px;
-    background-color: #CC320F;
+    background-color: rgba(34,215,247,1);
     position: absolute;
     bottom: 30px;
     left: 15px;
@@ -1016,7 +1016,7 @@ div.description {
 
 ::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    background-color: #272c9d
+    background-color: rgba(255,61,209,1);
 }
 
 @-webkit-keyframes slideOut {
@@ -1115,4 +1115,16 @@ div.description {
     .date {
         width: 6vw;
     }
+}
+
+.krakenPic {
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.gumballPic {
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
 }
