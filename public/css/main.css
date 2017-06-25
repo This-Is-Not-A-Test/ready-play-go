@@ -278,6 +278,11 @@ body {
     background: #333;
 }
 
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
 .logoAnimated {
     height: 11vh;
@@ -1128,4 +1133,31 @@ div.description {
     -ms-transform: rotate(180deg);
     -webkit-transform: rotate(180deg);
     transform: rotate(180deg);
+}
+
+.greyedOut {
+    opacity: 0.65;
+    box-shadow: none;
+}
+
+nav a {
+    font-family: 'Squada One', cursive;
+    display: block;
+    width: 8vw;
+    border: 1px solid rgba(99,202,249,1);
+    color: #fff;
+    font-size: 3vh;
+    text-align: center;
+    border-radius: 0;
+    align-items: center;
+    padding: 1%;
+    margin: 4%;
+    box-shadow: 0 0 10px rgba(99,202,249,1), 0 0 20px rgba(34,215,247,1), 0 0 30px rgba(71,137,224,1), 0 0 40px #00ffd8, 0 0 70px #00ffc3;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    margin-right: 2vw;
 }

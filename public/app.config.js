@@ -29,6 +29,10 @@
                 url: '/ticketcounter',
                 component: 'counter'
             })
+            .state('math', {
+                url: '/math/:questionid',
+                component: 'math'
+            })
             .state('game', {
                 url: '/start/:questionid',
                 component: 'signedInFrame'
