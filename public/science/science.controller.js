@@ -18,7 +18,7 @@
 
         vm.isRight = function() {
             console.log('that is correct')
-            vm.user.tickets = 5
+            vm.user.tickets = 10
             vm.check = true
         }
 

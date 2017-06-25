@@ -1,1 +1,44 @@
-<h1>seriously</h1>
+<div class="mathPage">
+    <div class="mathArea">
+        <div class="mathTest">
+            A six-sided shape is a:
+            <br>
+            a) cylinder
+            <br>
+            b) rectangle
+            <br>
+            c) hexagon
+            <br>
+            d) decagon
+            <br>
+            Choose an answer below.
+
+            <div class="answerSection">
+                <div class="" ng-click="$ctrl.isWrong()">a</div>
+                <div class="" ng-click="$ctrl.isWrong()">b</div>
+                <div class="" ng-click="$ctrl.isRight()">c</div>
+                <div class="" ng-click="$ctrl.isWrong()">d</div>
+            </div>
+
+        </div>
+        <div class="buttons"></div>
+    </div>
+    <div class="ticketArea">
+        <div class="slot">
+            <a class="ticket" ng-show="$ctrl.check">
+                <b></b>
+                <c></c>
+                <d></d>
+                <em>
+                    <b></b>
+                    <c></c>
+                </em>
+                <label>5 Tickets</label>
+            </a>
+        </div>
+        <div class="ticketCounter">
+            {{$ctrl.user.tickets}} <img src="../images/ticketcounter.png" alt="tickets">
+        </div>
+
+    </div>
+</div>

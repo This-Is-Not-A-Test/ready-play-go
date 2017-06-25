@@ -1,2 +1,47 @@
+<div class="sciencePage">
+    <div class="scienceArea">
+        <div class="scienceTest">
+            What is the furthest planet from the sun:
+            <br>
+            a) Mercury
+            <br>
+            b) Pluto
+            <br>
+            c) Earth
+            <br>
+            d) Jupiter
+            <br>
+            Choose an answer below.
 
-    <h1>Suck it!</h1>
+            <div class="answerSection">
+                <div class="" ng-click="$ctrl.isWrong()">a</div>
+                <div class="" ng-click="$ctrl.isRight()">b</div>
+                <div class="" ng-click="$ctrl.isWrong()">c</div>
+                <div class="" ng-click="$ctrl.isWrong()">d</div>
+            </div>
+
+        </div>
+        <div class="buttons"></div>
+    </div>
+    <div class="ticketArea">
+        <div class="slot">
+            <a class="ticket" ng-show="$ctrl.check">
+                <b></b>
+                <c></c>
+                <d></d>
+                <em>
+                    <b></b>
+                    <c></c>
+                </em>
+                <label>10 Tickets</label>
+            </a>
+        </div>
+        <!--<div class="fallLine">-->
+            <!---->
+        <!--</div>-->
+        <div class="ticketCounter">
+            {{$ctrl.user.tickets}} <img src="../images/ticketcounter.png" alt="tickets">
+        </div>
+
+    </div>
+</div>

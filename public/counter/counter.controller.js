@@ -79,6 +79,7 @@
         }
 
         vm.launchRDS = function() {
+            console.log('release the Kraken')
             var request = new XMLHttpRequest();
             var dev_id = '32001a001347343438323536';
             var access = '3877c854d0e868b16bba9510ce9951bb8f24d562';
