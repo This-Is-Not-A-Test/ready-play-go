@@ -745,6 +745,7 @@ footer {
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
+    margin-right: 4vw;
 }
 
 .ticketArea img {
@@ -757,4 +758,15 @@ footer {
     font-family: 'Squada One', cursive;
     color: #fff;
     font-size: 11vh;
+}
+
+.sciencePage {
+    display: flex;
+    flex-direction: row;
+    height: 83vh;
+    width: 100%;
+}
+
+.scienceArea {
+    width: 80%
 }

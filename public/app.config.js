@@ -21,6 +21,10 @@
                 url: '/profile/',
                 component: 'profile'
             })
+            .state('science', {
+                url: '/science/:questionid',
+                component: 'science'
+            })
             .state('game', {
                 url: '/start/:questionid',
                 component: 'signedInFrame'
