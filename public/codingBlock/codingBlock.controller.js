@@ -1,5 +1,5 @@
 
-(funcion() {
+(function() {
     angular.module('app')
         .controller('codingBlockController', codingBlockController)
 

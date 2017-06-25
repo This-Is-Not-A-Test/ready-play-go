@@ -1,12 +1,11 @@
-
 (function() {
     angular.module('app')
-        .controller('promptController', promptController)
+        .controller('profileController', profileController)
 
-    function promptController($stateParams) {
+    function profileController($stateParams) {
         const vm = this
 
-        //console.log('prompt controller is working')
+        console.log('profile controller is working')
 
         vm.isSet = function(id) {
 
