@@ -33,9 +33,9 @@
                 url: '/math/:questionid',
                 component: 'math'
             })
-            .state('game', {
-                url: '/start/:questionid',
-                component: 'signedInFrame'
+            .state('technology', {
+                url: '/technology/:questionid',
+                component: 'technology'
             })
         // etc...
     }
