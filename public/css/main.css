@@ -770,3 +770,8 @@ footer {
 .scienceArea {
     width: 80%
 }
+
+.answerSection {
+    display: flex;
+    flex-direction: row;
+}
