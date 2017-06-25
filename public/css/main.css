@@ -765,7 +765,9 @@ footer {
     font-size: 11vh;
 }
 
-.sciencePage {
+.sciencePage,
+.techPage,
+.mathPage{
     font-family: 'Squada One', cursive;
     display: flex;
     flex-direction: row;
@@ -773,7 +775,9 @@ footer {
     width: 100%;
 }
 
-.scienceArea {
+.scienceArea,
+.techArea,
+.mathArea{
     color: #fff;
     width: 80%;
     padding-left: 2.6vw;
@@ -781,10 +785,20 @@ footer {
 }
 
 .answerSection {
+    margin-top: 4vh;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 
+.answerSection div {
+    font-family: 'Squada One', cursive;
+    color: #fff;
+    width: 15%;
+    text-align: center;
+    border: 1px solid rgba(99,202,249,1);
+    box-shadow: 0 0 10px rgba(99,202,249,1), 0 0 20px rgba(34,215,247,1), 0 0 30px rgba(71,137,224,1), 0 0 40px #00ffd8, 0 0 70px #00ffc3;
+}
 a {
     color: inherit;
     text-decoration: none
