@@ -25,6 +25,10 @@
                 url: '/science/:questionid',
                 component: 'science'
             })
+            .state('counter', {
+                url: '/ticketcounter',
+                component: 'counter'
+            })
             .state('game', {
                 url: '/start/:questionid',
                 component: 'signedInFrame'
