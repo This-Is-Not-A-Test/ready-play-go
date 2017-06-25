@@ -1,6 +1,4 @@
-/**
- * Created by georgeflauta on 6/5/17.
- */
+
 (function() {
     angular.module('app')
         .controller('codingBlockController', codingBlockController)

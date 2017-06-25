@@ -17,6 +17,10 @@
                 url: '/',
                 component: 'signedOutFrame',
             })
+            .state('profile', {
+                url: '/profile/',
+                component: 'profile'
+            })
             .state('game', {
                 url: '/start/:questionid',
                 component: 'signedInFrame'
