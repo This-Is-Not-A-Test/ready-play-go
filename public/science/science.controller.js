@@ -11,6 +11,10 @@
             tickets: 0
         }
 
+        vm.isRight = function() {
+            console.log('that is correct')
+            vm.user.tickets = 5
+        }
         vm.questID = $stateParams.questionid
 
         vm.isSet = function(id) {
